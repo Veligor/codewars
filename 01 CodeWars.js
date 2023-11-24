@@ -97,3 +97,15 @@ function findShort(s) {
 let summation = function (num) {
   return (res = (num * (num + 1)) / 2);
 };
+
+//Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+//[Make sure you type the exact thing I wrote or the program may not execute properly]
+
+function greet(name) {
+  return `Hello, ${name} how are you doing today?`;
+}
+
+//Write a function which converts the input string to uppercase.
+function makeUpperCase(str) {
+  return str.toUpperCase();
+}
